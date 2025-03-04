@@ -17,7 +17,7 @@ const CreatePage = () => {
     price: "",
     image: "",
   });
-
+  
   const { createProduct } = useProductStore();
   const toast = useToast();
   const handleAddProduct = async () => {
